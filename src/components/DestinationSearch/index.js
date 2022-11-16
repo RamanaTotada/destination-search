@@ -22,13 +22,20 @@ class DestinationSearch extends Component {
       <div className="search-container">
         <div>
           <h1 className="search-heading">Destination search</h1>
-          <input
-            value={searchInput}
-            type="search"
-            placeholder="search"
-            className="search-box"
-            onChange={this.onChangeUserData}
-          />
+          <div className="search-conatiner">
+            <input
+              value={searchInput}
+              type="search"
+              placeholder="search"
+              className="search-box"
+              onChange={this.onChangeUserData}
+            />
+            <img
+              className="search-icon"
+              alt="search icon"
+              src="https://assets.ccbp.in/frontend/react-js/destinations-search-icon-img.png "
+            />
+          </div>
         </div>
 
         <ul className="unOrder-list">
