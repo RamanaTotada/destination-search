@@ -1,0 +1,27 @@
+.search-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto';
+  align-items: center;
+  padding: 10px;
+  background-size: cover;
+}
+.search-heading {
+  font-size: 40px;
+  font-weight: 700;
+  padding: 10px;
+  align-self: center;
+}
+.search-box {
+  border-radius: 8px;
+  align-self: center;
+}
+.unOrder-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 10px;
+  padding: 10px;
+  justify-content: center;
+}
